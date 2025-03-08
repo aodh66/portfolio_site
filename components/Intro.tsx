@@ -8,7 +8,7 @@ const Intro = () => {
         <h1 className="hero">Hi I'm Aidan.</h1>
       </div>
       <div className="mb-3 italic text-lg">
-        <p>Full-Stack Web Developer (UK based).</p>
+        <p>Full-Stack Software Developer (UK based).</p>
         <p>
           I love working in close-knit teams, and creating useful, intuitive sites
           for the end user.
