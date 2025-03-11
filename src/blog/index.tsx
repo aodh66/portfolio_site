@@ -80,7 +80,10 @@ export function Blog() {
         <div className="flex flex-col gap-4">
           {data &&
             data.map((post: Post) => (
-              <Link href={`/blog/${post.slug}`}>
+              <Link 
+                href={`/blog/${post.slug}`}
+                {...({ href: `/blog/${post.slug}` } as any)}
+              >
                 <div className="card flex min-w-full items-center justify-between gap-3 rounded-xl border-2 border-transparent p-2">
                   {/* {post.heroImage ? (
                 <>

@@ -77,6 +77,7 @@ export function Contact() {
               placeholder="Message"
               required
               className="card form mb-7 h-64  min-w-full rounded-xl border-2 border-transparent p-2"
+          {...({ type: "text" } as any)} 
             />
            <div className="flex gap-4 ">
               <button type="submit" className="text-xl font-semibold px-2 link items-center">Send</button>

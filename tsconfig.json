@@ -18,6 +18,11 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
+    // "jsx": "react",
+    // "jsxFactory": "h",
+    // "jsxFragmentFactory": "Fragment",
+    // "types": ["node"],
+    // "typeRoots": ["./node_modules/@types", "./types"]
 
     /* Linting */
     "strict": true,
@@ -25,6 +30,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "components"],
+  "include": ["src",
+   "components",
+   "types"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

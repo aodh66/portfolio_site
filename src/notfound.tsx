@@ -19,22 +19,38 @@ export function NotFound() {
             Sorry, this page doesn't exist.
           </h2>
           <div>
-            <Link href={`/`} className="link">
+            <Link 
+              href={`/`} 
+              className="link"
+              {...({ href: "/" } as any)} 
+            >
               Homepage
             </Link>
           </div>
           <div>
-            <Link href={`/blog`} className="link">
+            <Link 
+              href={`/blog`} 
+              className="link"
+              {...({ href: "/blog" } as any)} 
+            >
               Blog
             </Link>
           </div>
           <div>
-            <Link href={`/contact`} className="link">
+            <Link 
+            href={`/contact`} 
+            className="link"
+            {...({ href: "/contact" } as any)} 
+          >
               Contact
             </Link>
           </div>
           <div>
-            <Link href={`/portfolio`} className="link">
+            <Link 
+            href={`/portfolio`} 
+            className="link"
+            {...({ href: "/contact" } as any)} 
+          >
               Projects
             </Link>
           </div>

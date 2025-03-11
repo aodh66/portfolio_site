@@ -15,7 +15,11 @@ const ProjectSection = ({ projects }: ExampleProps) => {
         ))}
       </div>
       <div className="mt-2">
-        <Link href={`/portfolio`} className="link justify-self-end text-lg">
+        <Link 
+          href={`/portfolio`} 
+          className="link justify-self-end text-lg"
+          {...({ href: "/portfolio" } as any)} 
+        >
           More Projects
         </Link>
       </div>
