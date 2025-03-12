@@ -1,6 +1,6 @@
 import { useState, useEffect } from "preact/hooks";
 
-import liLogo from "/images/In-small-white.webp";
+import liLogo from "/images/In-med-white.webp";
 import ghLogo from "/images/github-mark-white.webp";
 import liLogoBig from "/images/LinkedIn-med-white2.webp";
 import ghLogoBig from "/images/GitHub_Logo_White.webp";
