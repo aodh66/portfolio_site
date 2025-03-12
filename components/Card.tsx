@@ -21,11 +21,17 @@ const Card = (props: ExampleProp) => {
           <img src={props.splash} alt={props.title} className="cardSplash" />
         </>
       ) : null}
+            <a 
+            href={props.url} 
+            className="max-w-1/3 h-3/4 linkImg"
+            >
       <img
         src={props.imgPath || props.imgUrl}
         alt={props.title}
-        className="max-w-1/3 h-3/4"
-      />
+        // className="max-w-1/3 h-3/4"
+        className="max-h-full"
+        />
+        </a>
       {props.github ? (
         <div className="flex flex-col gap-1 w-3/4">
           <div>
