@@ -14,7 +14,7 @@ const TechSection = ({ skills }: TechProps) => {
       <h2 className="mb-2 text-3xl font-semibold">Skills</h2>
       <div className="flex flex-wrap justify-around gap-4">
         {skills.map((skill: TechProp) => (
-          <div className="card flex h-20 w-20 flex-col items-center gap-3 rounded-xl border-2 border-transparent p-2">
+          <div className="card flex h-20 w-20 flex-col items-center gap-3 rounded-md border-2 border-transparent p-2">
             <img
               src={skill.imgPath || skill.imgUrl}
               alt={skill.name}

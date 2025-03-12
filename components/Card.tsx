@@ -14,7 +14,7 @@ interface ExampleProp {
 
 const Card = (props: ExampleProp) => {
   return (
-    <div className="card flex h-40 min-w-full items-center gap-3 rounded-xl border-2 border-transparent p-2">
+    <div className="card flex h-40 min-w-full items-center gap-3 rounded-md border-2 border-transparent p-2">
       {props.splash ? (
         <>
           <p className="splashTitle text-3xl font-semibold">{props.title}</p>

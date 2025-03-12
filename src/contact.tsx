@@ -54,7 +54,7 @@ export function Contact() {
               placeholder="Your Email"
               pattern="^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$"
               required
-              className="card form mb-7 min-w-full rounded-xl border-2 border-transparent p-2 "
+              className="card form mb-7 min-w-full rounded-md border-2 border-transparent p-2 "
             />
             <label for="subject" className="mb-2 self-start text-xs">
               Subject
@@ -65,7 +65,7 @@ export function Contact() {
               name="subject"
               placeholder="Subject"
               required
-              className="card form mb-7 min-w-full rounded-xl border-2 border-transparent p-2"
+              className="card form mb-7 min-w-full rounded-md border-2 border-transparent p-2"
             />
             <label for="message" className="mb-2 self-start text-xs">
               Message
@@ -76,7 +76,7 @@ export function Contact() {
               name="message"
               placeholder="Message"
               required
-              className="card form mb-7 h-64  min-w-full rounded-xl border-2 border-transparent p-2"
+              className="card form mb-7 h-64  min-w-full rounded-md border-2 border-transparent p-2"
           {...({ type: "text" } as any)} 
             />
            <div className="flex gap-4 ">
