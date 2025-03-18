@@ -19,17 +19,6 @@ export function Home() {
   // Site images should be 800x860px to stay consistent
   const projects: ExampleProp[] = [
     {
-      title: "Destiny Vault App",
-      url: "https://destiny-app-chi.vercel.app/",
-      description:
-        "React app using Bungie and Steam API to manage ingame inventory.",
-      imgPath: "/images/dva.webp",
-      imgUrl: "",
-      github: "https://github.com/aodh66/destiny-app",
-      splash: "/images/forest_light.webp",
-      order: 0,
-    },
-    {
       title: "Eclectic Shop",
       url: "https://ch15-fs-shop.vercel.app/",
       description: "React fullstack hypothetical shop.",
@@ -43,7 +32,7 @@ export function Home() {
       title: "Backup & Save Utility",
       url: "https://github.com/aodh66/bs-utility",
       description:
-        "Electron app to snapshot or periodically back up a folder (Windows).",
+      "Electron app to snapshot or periodically back up a folder (Windows).",
       imgPath: "/images/bs-utility.webp",
       imgUrl: "",
       github: "https://github.com/aodh66/bs-utility",
@@ -65,23 +54,34 @@ export function Home() {
       url: "https://dancing-zabaione-3f64c1.netlify.app/",
       description:
         "Basic dashboard to display an RSS feed + Warframe and a weather API information.",
-      imgPath: "/images/dashboard.webp",
-      imgUrl: "",
-      github: "https://github.com/aodh66/simple-dashboard",
-      splash: "/images/forest_med.webp",
-      order: 4,
-    },
-    {
-      title: "Cars API App",
-      url: "https://magnificent-kringle-441279.netlify.app/",
-      description:
+        imgPath: "/images/dashboard.webp",
+        imgUrl: "",
+        github: "https://github.com/aodh66/simple-dashboard",
+        splash: "/images/forest_med.webp",
+        order: 4,
+      },
+      {
+        title: "Cars API App",
+        url: "https://magnificent-kringle-441279.netlify.app/",
+        description:
         "Simple application made to consume an external API.",
-      imgPath: "/images/carsapi.webp",
-      imgUrl: "",
-      github: "https://github.com/aodh66/ch15-react-server",
-      splash: "/images/mountain_blue.webp",
-      order: 5,
-    },
+        imgPath: "/images/carsapi.webp",
+        imgUrl: "",
+        github: "https://github.com/aodh66/ch15-react-server",
+        splash: "/images/mountain_blue.webp",
+        order: 5,
+      },
+      {
+        title: "Destiny Vault App",
+        url: "https://destiny-app-chi.vercel.app/",
+        description:
+          "React app using Bungie and Steam API to manage ingame inventory.",
+        imgPath: "/images/destiny_app.webp",
+        imgUrl: "",
+        github: "https://github.com/aodh66/destiny-app",
+        splash: "/images/forest_light.webp",
+        order: 6,
+      },
   ];
 
   const skills: TechProp[] = [
