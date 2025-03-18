@@ -145,13 +145,13 @@ list-style-type: disc;
 }
 
 
-.markdown ol > li::before {
-/* list-style-type: decimal; */
+/* .markdown ol > li::before {
+list-style-type: decimal;
 }
 
 .markdown ul > li::before {
-/* list-style-type: disc; */
-}
+list-style-type: disc;
+} */
 
 @media screen and (min-width: 768px) {
   .background {

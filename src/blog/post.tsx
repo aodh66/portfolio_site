@@ -82,7 +82,7 @@ export const Post: FunctionalComponent<PostProps> = ({ slug }) => {
       <Header />
 
       {data ? (
-        <div className="align-items-center mb-6 flex flex-col">
+        <div className="align-items-center mb-6 flex flex-col p-2">
           <div className="flex flex-col gap-4">
             <div className="card blog flex min-w-full flex-col items-center justify-around gap-3 rounded-md border-2 border-transparent p-2">
               <div className="flex min-w-full justify-between">
