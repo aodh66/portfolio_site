@@ -84,7 +84,7 @@ export function Blog() {
                 href={`/blog/${post.slug}`}
                 {...({ href: `/blog/${post.slug}` } as any)}
               >
-                <div className="card flex min-w-full items-center justify-between gap-3 rounded-md border-2 border-transparent p-2">
+                <div className="card flex min-w-full items-center justify-between gap-3 rounded-md border-2 border-transparent p-2 mb-1">
                   {/* {post.heroImage ? (
                 <>
                 <p className="splashTitle text-3xl font-semibold">
