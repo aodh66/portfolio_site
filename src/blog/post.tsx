@@ -85,7 +85,7 @@ export const Post: FunctionalComponent<PostProps> = ({ slug }) => {
         <div className="align-items-center mb-6 flex flex-col">
           <div className="flex flex-col gap-4">
             <div className="card blog flex min-w-full flex-col items-center justify-around gap-3 rounded-md border-2 border-transparent p-2">
-              <div className="flex min-w-full justify-between p-2">
+              <div className="flex min-w-full justify-between px-4">
                 <h1 className="mb-2 text-3xl font-black">{data.title}</h1>
                 <p className="justify-self-end italic">
                   {new Date(data.createdAt).toLocaleDateString("en-gb", {
