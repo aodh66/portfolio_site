@@ -132,6 +132,19 @@ color: hsl(204, 100%, 50%);
   margin: 0 0.5em;
 }
 
+.markdown ol,
+.markdown ul {
+  margin: 0 0.5em;
+}
+
+.markdown ol li::before {
+list-style-type: decimal;
+}
+
+.markdown ul li::before {
+list-style-type: disc;
+}
+
 @media screen and (min-width: 768px) {
   .background {
     /* background-image: url("./assets/mountain_colorb.jpg"); */
