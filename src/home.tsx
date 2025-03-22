@@ -86,7 +86,7 @@ export function Home() {
         title: "Portfolio Site",
         url: "https://www.aidanmeehan.dev/",
         description:
-          "React app to display my portfolio.",
+          "A site made to host my portfolio and practice some skills. Made with TS, Preact, Tailwind. Hygraph and Firebase for Blog and Portfolio DB.",
         imgPath: "/images/portfolio.webp",
         imgUrl: "",
         github: "https://github.com/aodh66/portfolio_site",
