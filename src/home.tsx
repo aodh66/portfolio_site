@@ -21,7 +21,7 @@ export function Home() {
     {
       title: "Eclectic Shop",
       url: "https://ch15-fs-shop.vercel.app/",
-      description: "React fullstack hypothetical shop.",
+      description: "React fullstack hypothetical shop. SPA built on Next.js, MUI, MongoDB, Hygraph, Stripe, Tanstack Query, Auth0 and Axios.",
       imgPath: "/images/eclecticshop.webp",
       imgUrl: "",
       github: "https://github.com/aodh66/ch15-fs-shop",
