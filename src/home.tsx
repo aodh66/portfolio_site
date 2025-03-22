@@ -53,7 +53,7 @@ export function Home() {
       title: "Dashboard",
       url: "https://dancing-zabaione-3f64c1.netlify.app/",
       description:
-        "Basic dashboard to display an RSS feed + Warframe and a weather API information.",
+        "Basic dashboard to display an RSS feed + API information from Warframe and a weather service.",
         imgPath: "/images/dashboard.webp",
         imgUrl: "",
         github: "https://github.com/aodh66/simple-dashboard",
