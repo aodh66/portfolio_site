@@ -21,7 +21,8 @@ export function Home() {
     {
       title: "Eclectic Shop",
       url: "https://ch15-fs-shop.vercel.app/",
-      description: "React fullstack hypothetical shop. SPA built on Next.js, MUI, MongoDB, Hygraph, Stripe, Tanstack Query, Auth0 and Axios.",
+      description:
+        "React fullstack hypothetical shop. SPA built on Next.js, MUI, MongoDB, Hygraph, Stripe, Tanstack Query, Auth0 and Axios.",
       imgPath: "/images/eclecticshop.webp",
       imgUrl: "",
       github: "https://github.com/aodh66/ch15-fs-shop",
@@ -32,12 +33,23 @@ export function Home() {
       title: "Backup & Save Utility",
       url: "https://github.com/aodh66/bs-utility",
       description:
-      "Electron app to snapshot or periodically back up a folder (Windows).",
+        "Electron app to snapshot or periodically back up a folder (Windows).",
       imgPath: "/images/bs-utility.webp",
       imgUrl: "",
       github: "https://github.com/aodh66/bs-utility",
       splash: "/images/forest_dark.webp",
       order: 2,
+    },
+    {
+      title: "(Rust) Backup & Save Utility",
+      url: "",
+      description:
+        "Rust app written with Tauri(Rust backend, TypeScript frontend) to backup and snapshot a folder",
+      imgPath: "/images/bs-utility-rust.webp",
+      imgUrl: "",
+      github: "https://github.com/aodh66/bs_utility_rust",
+      splash: "/images/forest_med.webp",
+      order: 3,
     },
     {
       title: "Habitica Homage",
@@ -47,52 +59,51 @@ export function Home() {
       imgUrl: "",
       github: "https://github.com/aodh66/habitica-homage",
       splash: "/images/mountain_color.webp",
-      order: 3,
+      order: 4,
     },
+    // {
+    //   title: "Dashboard",
+    //   url: "https://dancing-zabaione-3f64c1.netlify.app/",
+    //   description:
+    //     "Basic dashboard to display an RSS feed + API information from Warframe and a weather service.",
+    //   imgPath: "/images/dashboard.webp",
+    //   imgUrl: "",
+    //   github: "https://github.com/aodh66/simple-dashboard",
+    //   splash: "/images/forest_med.webp",
+    //   order: 4,
+    // },
     {
-      title: "Dashboard",
-      url: "https://dancing-zabaione-3f64c1.netlify.app/",
+      title: "Cars API App",
+      url: "https://magnificent-kringle-441279.netlify.app/",
+      description: "Simple application made to consume an external API.",
+      imgPath: "/images/carsapi.webp",
+      imgUrl: "",
+      github: "https://github.com/aodh66/ch15-react-server",
+      splash: "/images/mountain_blue.webp",
+      order: 5,
+    },
+    // {
+    //   title: "Destiny Vault App",
+    //   url: "https://destiny-app-chi.vercel.app/",
+    //   description:
+    //     "React app using Bungie and Steam API to manage ingame inventory.",
+    //   imgPath: "/images/destiny_app.webp",
+    //   imgUrl: "",
+    //   github: "https://github.com/aodh66/destiny-app",
+    //   splash: "/images/forest_light.webp",
+    //   order: 6,
+    // },
+    {
+      title: "Portfolio Site",
+      url: "https://www.aidanmeehan.dev/",
       description:
-        "Basic dashboard to display an RSS feed + API information from Warframe and a weather service.",
-        imgPath: "/images/dashboard.webp",
-        imgUrl: "",
-        github: "https://github.com/aodh66/simple-dashboard",
-        splash: "/images/forest_med.webp",
-        order: 4,
-      },
-      {
-        title: "Cars API App",
-        url: "https://magnificent-kringle-441279.netlify.app/",
-        description:
-        "Simple application made to consume an external API.",
-        imgPath: "/images/carsapi.webp",
-        imgUrl: "",
-        github: "https://github.com/aodh66/ch15-react-server",
-        splash: "/images/mountain_blue.webp",
-        order: 5,
-      },
-      // {
-      //   title: "Destiny Vault App",
-      //   url: "https://destiny-app-chi.vercel.app/",
-      //   description:
-      //     "React app using Bungie and Steam API to manage ingame inventory.",
-      //   imgPath: "/images/destiny_app.webp",
-      //   imgUrl: "",
-      //   github: "https://github.com/aodh66/destiny-app",
-      //   splash: "/images/forest_light.webp",
-      //   order: 6,
-      // },
-      {
-        title: "Portfolio Site",
-        url: "https://www.aidanmeehan.dev/",
-        description:
-          "A site made to host my portfolio and practice some skills. Made with TS, Preact, Tailwind. Hygraph and Firebase for Blog and Portfolio DB.",
-        imgPath: "/images/portfolio.webp",
-        imgUrl: "",
-        github: "https://github.com/aodh66/portfolio_site",
-        splash: "/images/forest_light.webp",
-        order: 6,
-      },
+        "A site made to host my portfolio and practice some skills. Made with TS, Preact, Tailwind. Hygraph and Firebase for Blog and Portfolio DB.",
+      imgPath: "/images/portfolio.webp",
+      imgUrl: "",
+      github: "https://github.com/aodh66/portfolio_site",
+      splash: "/images/forest_light.webp",
+      order: 6,
+    },
   ];
 
   const skills: TechProp[] = [
@@ -165,6 +176,16 @@ export function Home() {
       name: "Electron",
       imgPath: "/tech/electron.svg",
       imgUrl: "https://www.svgrepo.com/show/378796/electron.svg",
+    },
+    {
+      name: "Rust",
+      imgPath: "/tech/rust.svg",
+      imgUrl: "https://www.svgrepo.com/show/306688/rust.svg",
+    },
+    {
+      name: "Tauri",
+      imgPath: "/tech/tauri.svg",
+      imgUrl: "https://icon.icepanel.io/Technology/svg/Tauri.svg#_uDark",
     },
   ];
 
