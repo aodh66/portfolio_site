@@ -54,7 +54,7 @@ export function Home() {
     {
       title: "Habitica Homage",
       url: "https://habitica-homage.netlify.app/",
-      description: "Copied with no JavaScript to practice pure CSS",
+      description: "Copied Tasks, Group & Challenges pages with no JavaScript to practice pure CSS.",
       imgPath: "/images/homage.webp",
       imgUrl: "",
       github: "https://github.com/aodh66/habitica-homage",
